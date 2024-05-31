@@ -18,4 +18,4 @@ function convertirMajRouge($texte) {                  /* function au nom de conv
       return $result;                                 /* Retourner le resultat de $Result */
 }
 
-echo convertirMajRouge($texte);                       /* Afficher la function convertirMajRouge($texte)*/
+echo convertirMajRouge($texte);                       /* Afficher la function convertirMajRouge($texte) */
