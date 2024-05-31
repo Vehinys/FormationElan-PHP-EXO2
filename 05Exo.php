@@ -2,12 +2,6 @@
 
 <H2>Le résultat</H2>
 
-
-
-
-
-
-
 <?php
 
    $nomsInput = array("Nom","Prénom","Ville");
