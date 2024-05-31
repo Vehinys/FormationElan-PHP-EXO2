@@ -37,7 +37,7 @@ $capitales = [                                                           // Tabl
            background-color: #f2f2f2;
        }
        </style>
-       </head>
+    </head>
        <body>
         <table>
             <tr>
