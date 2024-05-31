@@ -4,9 +4,12 @@
 
 <?php
 
-function afficherTableHTML($capitales) {                                 // Définition de la fonction afficherTableHTML                        
+function afficherTableHTML($capitales) {                                 // Définition de la fonction afficherTableHTML             
+
    ksort($capitales);                                                    // Trier le tableau par ordre alphabétique des noms des pays
+
    $tableRows ="";                                                       // Générer les lignes du tableau HTML
+   
    foreach ($capitales as $pays => $capitale) {
        $urlSite    = "https://fr.wikipedia.org/wiki/" . urlencode($capitale);
        $tableRows .= "<tr>";

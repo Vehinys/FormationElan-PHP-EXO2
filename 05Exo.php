@@ -2,11 +2,21 @@
 
 <H2>Le résultat</H2>
 
+
+
+
+
+
+
 <?php
-function afficherInput($nomsInput) {
-    
+
+   $nomsInput = array("Nom","Prénom","Ville");
+
+   function information($nomsInput) {
+    foreach($nomsInput as $input) {
+
+        echo  "<label>'.$input.'</label>";
+        echo  "<input type='text'>";
+    }
 }
-
-
-
-
+ ?>
