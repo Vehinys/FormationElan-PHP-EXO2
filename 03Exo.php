@@ -1,8 +1,12 @@
 <h1>Exo 3</h1>
 
-<p>Afficher un lien hypertexte permettant d’accéder au site d’Elan Formation. 
-   Le lien devra s’ouvrir dans un nouvel onglet (_blank).</p>
-
 <H2>Le résultat</H2>
 
-<?PHP
+<?php
+
+function lienHyper($lien){
+ 
+   return($lien);
+}
+
+echo $lien;
