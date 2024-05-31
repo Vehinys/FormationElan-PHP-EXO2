@@ -3,14 +3,19 @@
 <H2>Le résultat</H2>
 
 <?php
-
    $nomsInput = array("Nom","Prénom","Ville");
+//    echo information($nomsInput) ;
 
-   function information($nomsInput) {
+  
+
     foreach($nomsInput as $input) {
 
-        echo  "<label> '$input' </label>";
-        echo  "<input type='text' name = '$input'>";
+        echo "<label> $input </label>";
+   
+
     }
-}
+
+
  ?>
+
+
