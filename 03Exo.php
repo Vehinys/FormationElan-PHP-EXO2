@@ -4,9 +4,8 @@
 
 <?php
 
-function lienHyper($lien){
- 
-   return($lien);
-}
+$lien = "http://elan-formation.fr";
 
-echo $lien;
+?>
+
+<a href="<?=$lien?>" target="_blank"> ELAN FORMATION </a>
