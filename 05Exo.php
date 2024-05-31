@@ -3,6 +3,10 @@
 <H2>Le résultat</H2>
 
 <?php
+function afficherInput($nomsInput) {
+    
+}
+
 
 
 
