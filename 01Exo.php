@@ -2,7 +2,7 @@
 
 <H2>Le résultat</H2>
 
-<style>                                                /* Style CSS - COULEUR ROUGE */
+<style>                                               /* Style CSS - COULEUR ROUGE */
     .red {
       color : red;
       }
