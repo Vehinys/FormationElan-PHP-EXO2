@@ -15,8 +15,8 @@
    function information($nomsInput) {
     foreach($nomsInput as $input) {
 
-        echo  "<label>'.$input.'</label>";
-        echo  "<input type='text'>";
+        echo  "<label> '$input' </label>";
+        echo  "<input type='text' name = '$input'>";
     }
 }
  ?>
