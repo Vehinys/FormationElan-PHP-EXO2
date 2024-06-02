@@ -5,11 +5,9 @@
 <?php
 
 $elements = [
-
     "Option 1" => false,
     "Option 2" => true,
     "Option 3" => false
-    
 ];
 
 function genererCheckbox($elements) {
@@ -21,7 +19,7 @@ function genererCheckbox($elements) {
         $checked = $checked ? 'checked' : '';
 
         echo '<br><label> '. $option .' </label>';
-        echo '<input type= " checkbox "  ' . $checked . ' ></input>';
+        echo '<input type= "checkbox"  ' . $checked . ' ></input>';
     
     }
 
@@ -29,5 +27,4 @@ function genererCheckbox($elements) {
 }
 
 echo genererCheckbox($elements);
-
 ?>
