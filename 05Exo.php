@@ -3,19 +3,24 @@
 <H2>Le résultat</H2>
 
 <?php
-   $nomsInput = array("Nom","Prénom","Ville");
-//    echo information($nomsInput) ;
 
-  
+$nomsInput = ["Nom", "Prénom", "Ville"];
 
-    foreach($nomsInput as $input) {
 
-        echo "<label> $input </label>";
-   
+function afficherInput($nomsInput) {
+
+    foreach ($nomsInput as $nom) {
+
+        echo '<label>' . $nom . ' :</label><br>';
+        echo '<input type="text"><br><br>';
 
     }
+}
+
+echo afficherInput($nomsInput);
 
 
- ?>
+
+
 
 
