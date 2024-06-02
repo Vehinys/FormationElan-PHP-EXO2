@@ -1,3 +1,7 @@
+<h1>Exo 10</h1>
+
+<H2>Le résultat</H2>
+
 <?php
 
 $nomsInput = ["Nom", "Prénom","Email","Ville","Sexe"];

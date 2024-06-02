@@ -2,7 +2,6 @@
 
 <H2>Le résultat</H2>
 
-
 <?php
 
 $nomsRadio = [
