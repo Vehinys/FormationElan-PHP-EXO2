@@ -1,3 +1,7 @@
+<h1>Exo 2</h1>
+
+<H2>Le résultat</H2>
+
 <?php
 function afficherTableHTML($capitales) {                                 // Définition de la fonction afficherTableHTML                        
    ksort($capitales);                                                    // Trier le tableau par ordre alphabétique des noms des pays
