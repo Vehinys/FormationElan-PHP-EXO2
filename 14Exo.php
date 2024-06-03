@@ -5,11 +5,14 @@
 
 <?php
 
-$tableauValeurs=[true,"texte",10,25.369,["valeur1","valeur2"]];
+  $email = "elan@elan.fr";
 
-    foreach($tableauValeurs as $valeurs)
-    var_dump($valeurs);
-
+  if(filter_var($email, FILTER_VALIDATE_EMAIL)){
+    echo "L'adresse <b>$email</b> est une adresse e-mail valide";
+  }else{
+    echo "L'adresse <b>$email</b> est une adresse e-mail invalide";
+  }
+  
 ?>
 
 
