@@ -8,11 +8,11 @@
   $email = "elan@elan.fr";
 
   if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-    echo "L'adresse <b>$email</b> est une adresse e-mail valide";
+    echo "L'adresse <b> $email </b> est une adresse e-mail valide";
   }else{
-    echo "L'adresse <b>$email</b> est une adresse e-mail invalide";
+    echo "L'adresse <b> $email </b> est une adresse e-mail invalide";
   }
-  
+
 ?>
 
 
