@@ -1,4 +1,5 @@
-<h1>Exo 12</h1>
+<h1>Exo 14
+</h1>
 
 <H2>Le résultat</H2>
 
